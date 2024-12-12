@@ -1,0 +1,13 @@
+prefix=D:/annclassificationproject/venv/Library
+exec_prefix=D:/annclassificationproject/venv/Library
+libdir=D:/annclassificationproject/venv/Library/lib
+sharedlibdir=D:/annclassificationproject/venv/Library/lib
+includedir=D:/annclassificationproject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
